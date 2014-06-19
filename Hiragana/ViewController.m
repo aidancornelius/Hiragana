@@ -118,6 +118,14 @@ void showWrongTranslitError() {
     [wrongTranslit show];
 }
 
+void showTranslitHint(NSString *theTranslit) {
+    NSString *showHelpString = [NSString stringWithFormat:@"The correct translit is... %@", theTranslit];
+    
+    UIAlertView *wrongTranslit = [[UIAlertView alloc] initWithTitle:@"Hint:" message:showHelpString delegate:nil cancelButtonTitle:@"Try again?" otherButtonTitles: nil ];
+    
+    [wrongTranslit show];
+}
+
 -(void) verifyTranslitOnButtonPress {
     // Create some useful variables...
     NSString *typedTranslit = translit.text;
@@ -170,4 +178,22 @@ void showWrongTranslitError() {
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)skipButton:(id)sender {
+    // Clean up the translit field for the next entry...
+    translit.text = @"";
+    // Get a new hirigana...
+    NSString *nextHirigana = returnAHirigana(0, 0);
+    // Display the aforementioned new hirigana!
+    hirigana.text = nextHirigana;
+    
+    [self resignFirstResponder];
+    [self performSelector:@selector(showKeyboard) withObject:nil afterDelay:0.2];
+}
+
+- (IBAction)hintButton:(id)sender {
+    NSString *currentHirigana = hirigana.text;
+    NSString *correctTranslit = findTranslitForHirigana(currentHirigana);
+    
+    showTranslitHint(correctTranslit);
+}
 @end

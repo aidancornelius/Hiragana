@@ -16,4 +16,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *hirigana;
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *nextButton;
 
+- (IBAction)skipButton:(id)sender;
+- (IBAction)hintButton:(id)sender;
+
 @end
