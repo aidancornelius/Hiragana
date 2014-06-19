@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		127D10D5195300F900DEDB39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D10D4195300F900DEDB39 /* Foundation.framework */; };
+		127D10D7195300F900DEDB39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D10D6195300F900DEDB39 /* CoreGraphics.framework */; };
+		127D10D9195300F900DEDB39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D10D8195300F900DEDB39 /* UIKit.framework */; };
+		127D10DF195300F900DEDB39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 127D10DD195300F900DEDB39 /* InfoPlist.strings */; };
+		127D10E1195300F900DEDB39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D10E0195300F900DEDB39 /* main.m */; };
+		127D10E5195300F900DEDB39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D10E4195300F900DEDB39 /* AppDelegate.m */; };
+		127D10E8195300F900DEDB39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127D10E6195300F900DEDB39 /* Main.storyboard */; };
+		127D10EB195300F900DEDB39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D10EA195300F900DEDB39 /* ViewController.m */; };
+		127D10ED195300F900DEDB39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127D10EC195300F900DEDB39 /* Images.xcassets */; };
+		127D10F4195300F900DEDB39 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D10F3195300F900DEDB39 /* XCTest.framework */; };
+		127D10F5195300F900DEDB39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D10D4195300F900DEDB39 /* Foundation.framework */; };
+		127D10F6195300F900DEDB39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D10D8195300F900DEDB39 /* UIKit.framework */; };
+		127D10FE195300F900DEDB39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 127D10FC195300F900DEDB39 /* InfoPlist.strings */; };
+		127D1100195300F900DEDB39 /* HiraganaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D10FF195300F900DEDB39 /* HiraganaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		127D10F7195300F900DEDB39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127D10C9195300F900DEDB39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 127D10D0195300F900DEDB39;
+			remoteInfo = Hiragana;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		127D10D1195300F900DEDB39 /* Hiragana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiragana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		127D10D4195300F900DEDB39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		127D10D6195300F900DEDB39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		127D10D8195300F900DEDB39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		127D10DC195300F900DEDB39 /* Hiragana-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hiragana-Info.plist"; sourceTree = "<group>"; };
+		127D10DE195300F900DEDB39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		127D10E0195300F900DEDB39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		127D10E2195300F900DEDB39 /* Hiragana-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hiragana-Prefix.pch"; sourceTree = "<group>"; };
+		127D10E3195300F900DEDB39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		127D10E4195300F900DEDB39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		127D10E7195300F900DEDB39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		127D10E9195300F900DEDB39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		127D10EA195300F900DEDB39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		127D10EC195300F900DEDB39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		127D10F2195300F900DEDB39 /* HiraganaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiraganaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		127D10F3195300F900DEDB39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		127D10FB195300F900DEDB39 /* HiraganaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiraganaTests-Info.plist"; sourceTree = "<group>"; };
+		127D10FD195300F900DEDB39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		127D10FF195300F900DEDB39 /* HiraganaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiraganaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		127D10CE195300F900DEDB39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127D10D7195300F900DEDB39 /* CoreGraphics.framework in Frameworks */,
+				127D10D9195300F900DEDB39 /* UIKit.framework in Frameworks */,
+				127D10D5195300F900DEDB39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		127D10EF195300F900DEDB39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127D10F4195300F900DEDB39 /* XCTest.framework in Frameworks */,
+				127D10F6195300F900DEDB39 /* UIKit.framework in Frameworks */,
+				127D10F5195300F900DEDB39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		127D10C8195300F900DEDB39 = {
+			isa = PBXGroup;
+			children = (
+				127D10DA195300F900DEDB39 /* Hiragana */,
+				127D10F9195300F900DEDB39 /* HiraganaTests */,
+				127D10D3195300F900DEDB39 /* Frameworks */,
+				127D10D2195300F900DEDB39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		127D10D2195300F900DEDB39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				127D10D1195300F900DEDB39 /* Hiragana.app */,
+				127D10F2195300F900DEDB39 /* HiraganaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		127D10D3195300F900DEDB39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				127D10D4195300F900DEDB39 /* Foundation.framework */,
+				127D10D6195300F900DEDB39 /* CoreGraphics.framework */,
+				127D10D8195300F900DEDB39 /* UIKit.framework */,
+				127D10F3195300F900DEDB39 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		127D10DA195300F900DEDB39 /* Hiragana */ = {
+			isa = PBXGroup;
+			children = (
+				127D10E3195300F900DEDB39 /* AppDelegate.h */,
+				127D10E4195300F900DEDB39 /* AppDelegate.m */,
+				127D10E6195300F900DEDB39 /* Main.storyboard */,
+				127D10E9195300F900DEDB39 /* ViewController.h */,
+				127D10EA195300F900DEDB39 /* ViewController.m */,
+				127D10EC195300F900DEDB39 /* Images.xcassets */,
+				127D10DB195300F900DEDB39 /* Supporting Files */,
+			);
+			path = Hiragana;
+			sourceTree = "<group>";
+		};
+		127D10DB195300F900DEDB39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				127D10DC195300F900DEDB39 /* Hiragana-Info.plist */,
+				127D10DD195300F900DEDB39 /* InfoPlist.strings */,
+				127D10E0195300F900DEDB39 /* main.m */,
+				127D10E2195300F900DEDB39 /* Hiragana-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		127D10F9195300F900DEDB39 /* HiraganaTests */ = {
+			isa = PBXGroup;
+			children = (
+				127D10FF195300F900DEDB39 /* HiraganaTests.m */,
+				127D10FA195300F900DEDB39 /* Supporting Files */,
+			);
+			path = HiraganaTests;
+			sourceTree = "<group>";
+		};
+		127D10FA195300F900DEDB39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				127D10FB195300F900DEDB39 /* HiraganaTests-Info.plist */,
+				127D10FC195300F900DEDB39 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		127D10D0195300F900DEDB39 /* Hiragana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 127D1103195300F900DEDB39 /* Build configuration list for PBXNativeTarget "Hiragana" */;
+			buildPhases = (
+				127D10CD195300F900DEDB39 /* Sources */,
+				127D10CE195300F900DEDB39 /* Frameworks */,
+				127D10CF195300F900DEDB39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hiragana;
+			productName = Hiragana;
+			productReference = 127D10D1195300F900DEDB39 /* Hiragana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		127D10F1195300F900DEDB39 /* HiraganaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 127D1106195300F900DEDB39 /* Build configuration list for PBXNativeTarget "HiraganaTests" */;
+			buildPhases = (
+				127D10EE195300F900DEDB39 /* Sources */,
+				127D10EF195300F900DEDB39 /* Frameworks */,
+				127D10F0195300F900DEDB39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				127D10F8195300F900DEDB39 /* PBXTargetDependency */,
+			);
+			name = HiraganaTests;
+			productName = HiraganaTests;
+			productReference = 127D10F2195300F900DEDB39 /* HiraganaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		127D10C9195300F900DEDB39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Aidan Cornelius-Bell";
+				TargetAttributes = {
+					127D10F1195300F900DEDB39 = {
+						TestTargetID = 127D10D0195300F900DEDB39;
+					};
+				};
+			};
+			buildConfigurationList = 127D10CC195300F900DEDB39 /* Build configuration list for PBXProject "Hiragana" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 127D10C8195300F900DEDB39;
+			productRefGroup = 127D10D2195300F900DEDB39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				127D10D0195300F900DEDB39 /* Hiragana */,
+				127D10F1195300F900DEDB39 /* HiraganaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		127D10CF195300F900DEDB39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127D10ED195300F900DEDB39 /* Images.xcassets in Resources */,
+				127D10DF195300F900DEDB39 /* InfoPlist.strings in Resources */,
+				127D10E8195300F900DEDB39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		127D10F0195300F900DEDB39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127D10FE195300F900DEDB39 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		127D10CD195300F900DEDB39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127D10EB195300F900DEDB39 /* ViewController.m in Sources */,
+				127D10E5195300F900DEDB39 /* AppDelegate.m in Sources */,
+				127D10E1195300F900DEDB39 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		127D10EE195300F900DEDB39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127D1100195300F900DEDB39 /* HiraganaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		127D10F8195300F900DEDB39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 127D10D0195300F900DEDB39 /* Hiragana */;
+			targetProxy = 127D10F7195300F900DEDB39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		127D10DD195300F900DEDB39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				127D10DE195300F900DEDB39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		127D10E6195300F900DEDB39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				127D10E7195300F900DEDB39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		127D10FC195300F900DEDB39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				127D10FD195300F900DEDB39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		127D1101195300F900DEDB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		127D1102195300F900DEDB39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		127D1104195300F900DEDB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hiragana/Hiragana-Prefix.pch";
+				INFOPLIST_FILE = "Hiragana/Hiragana-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		127D1105195300F900DEDB39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hiragana/Hiragana-Prefix.pch";
+				INFOPLIST_FILE = "Hiragana/Hiragana-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		127D1107195300F900DEDB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hiragana.app/Hiragana";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hiragana/Hiragana-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HiraganaTests/HiraganaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		127D1108195300F900DEDB39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hiragana.app/Hiragana";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hiragana/Hiragana-Prefix.pch";
+				INFOPLIST_FILE = "HiraganaTests/HiraganaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		127D10CC195300F900DEDB39 /* Build configuration list for PBXProject "Hiragana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127D1101195300F900DEDB39 /* Debug */,
+				127D1102195300F900DEDB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		127D1103195300F900DEDB39 /* Build configuration list for PBXNativeTarget "Hiragana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127D1104195300F900DEDB39 /* Debug */,
+				127D1105195300F900DEDB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		127D1106195300F900DEDB39 /* Build configuration list for PBXNativeTarget "HiraganaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127D1107195300F900DEDB39 /* Debug */,
+				127D1108195300F900DEDB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 127D10C9195300F900DEDB39 /* Project object */;
+}
