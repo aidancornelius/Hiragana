@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate> {
+    UITextField *translit;
+}
+
+@property (strong, nonatomic) IBOutlet UITextField *translit;
+@property (strong, nonatomic) IBOutlet UILabel *hirigana;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *nextButton;
 
 @end

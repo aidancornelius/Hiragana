@@ -21,6 +21,12 @@
 		127D10F6195300F900DEDB39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D10D8195300F900DEDB39 /* UIKit.framework */; };
 		127D10FE195300F900DEDB39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 127D10FC195300F900DEDB39 /* InfoPlist.strings */; };
 		127D1100195300F900DEDB39 /* HiraganaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D10FF195300F900DEDB39 /* HiraganaTests.m */; };
+		127D11151953066400DEDB39 /* glyphicons_193_circle_ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D11131953066400DEDB39 /* glyphicons_193_circle_ok.png */; };
+		127D11161953066400DEDB39 /* glyphicons_193_circle_ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D11141953066400DEDB39 /* glyphicons_193_circle_ok@2x.png */; };
+		127D11191953067100DEDB39 /* glyphicons_195_circle_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D11171953067100DEDB39 /* glyphicons_195_circle_info.png */; };
+		127D111A1953067100DEDB39 /* glyphicons_195_circle_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D11181953067100DEDB39 /* glyphicons_195_circle_info@2x.png */; };
+		127D111C19530BE000DEDB39 /* colors-band.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D111B19530BE000DEDB39 /* colors-band.png */; };
+		127D111F195310BA00DEDB39 /* square@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D111E195310BA00DEDB39 /* square@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		127D10FB195300F900DEDB39 /* HiraganaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiraganaTests-Info.plist"; sourceTree = "<group>"; };
 		127D10FD195300F900DEDB39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		127D10FF195300F900DEDB39 /* HiraganaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiraganaTests.m; sourceTree = "<group>"; };
+		127D11131953066400DEDB39 /* glyphicons_193_circle_ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_193_circle_ok.png; sourceTree = "<group>"; };
+		127D11141953066400DEDB39 /* glyphicons_193_circle_ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_193_circle_ok@2x.png"; sourceTree = "<group>"; };
+		127D11171953067100DEDB39 /* glyphicons_195_circle_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_195_circle_info.png; sourceTree = "<group>"; };
+		127D11181953067100DEDB39 /* glyphicons_195_circle_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_195_circle_info@2x.png"; sourceTree = "<group>"; };
+		127D111B19530BE000DEDB39 /* colors-band.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colors-band.png"; sourceTree = "<group>"; };
+		127D111E195310BA00DEDB39 /* square@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +129,7 @@
 				127D10E6195300F900DEDB39 /* Main.storyboard */,
 				127D10E9195300F900DEDB39 /* ViewController.h */,
 				127D10EA195300F900DEDB39 /* ViewController.m */,
-				127D10EC195300F900DEDB39 /* Images.xcassets */,
+				127D111D19530BE400DEDB39 /* Media */,
 				127D10DB195300F900DEDB39 /* Supporting Files */,
 			);
 			path = Hiragana;
@@ -150,6 +162,20 @@
 				127D10FC195300F900DEDB39 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		127D111D19530BE400DEDB39 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				127D10EC195300F900DEDB39 /* Images.xcassets */,
+				127D111E195310BA00DEDB39 /* square@2x.png */,
+				127D11131953066400DEDB39 /* glyphicons_193_circle_ok.png */,
+				127D11141953066400DEDB39 /* glyphicons_193_circle_ok@2x.png */,
+				127D11171953067100DEDB39 /* glyphicons_195_circle_info.png */,
+				127D11181953067100DEDB39 /* glyphicons_195_circle_info@2x.png */,
+				127D111B19530BE000DEDB39 /* colors-band.png */,
+			);
+			name = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +254,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				127D111A1953067100DEDB39 /* glyphicons_195_circle_info@2x.png in Resources */,
 				127D10ED195300F900DEDB39 /* Images.xcassets in Resources */,
+				127D11151953066400DEDB39 /* glyphicons_193_circle_ok.png in Resources */,
+				127D11191953067100DEDB39 /* glyphicons_195_circle_info.png in Resources */,
 				127D10DF195300F900DEDB39 /* InfoPlist.strings in Resources */,
 				127D10E8195300F900DEDB39 /* Main.storyboard in Resources */,
+				127D11161953066400DEDB39 /* glyphicons_193_circle_ok@2x.png in Resources */,
+				127D111F195310BA00DEDB39 /* square@2x.png in Resources */,
+				127D111C19530BE000DEDB39 /* colors-band.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
