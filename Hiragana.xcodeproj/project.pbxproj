@@ -27,6 +27,7 @@
 		127D111A1953067100DEDB39 /* glyphicons_195_circle_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D11181953067100DEDB39 /* glyphicons_195_circle_info@2x.png */; };
 		127D111C19530BE000DEDB39 /* colors-band.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D111B19530BE000DEDB39 /* colors-band.png */; };
 		127D111F195310BA00DEDB39 /* square@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D111E195310BA00DEDB39 /* square@2x.png */; };
+		12B44AAD1953D3590038F40F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B44AAC1953D3590038F40F /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		127D11181953067100DEDB39 /* glyphicons_195_circle_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_195_circle_info@2x.png"; sourceTree = "<group>"; };
 		127D111B19530BE000DEDB39 /* colors-band.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colors-band.png"; sourceTree = "<group>"; };
 		127D111E195310BA00DEDB39 /* square@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square@2x.png"; sourceTree = "<group>"; };
+		12B44AAB1953D3590038F40F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		12B44AAC1953D3590038F40F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 				127D10EA195300F900DEDB39 /* ViewController.m */,
 				127D111D19530BE400DEDB39 /* Media */,
 				127D10DB195300F900DEDB39 /* Supporting Files */,
+				12B44AAB1953D3590038F40F /* SettingsViewController.h */,
+				12B44AAC1953D3590038F40F /* SettingsViewController.m */,
 			);
 			path = Hiragana;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 				127D10EB195300F900DEDB39 /* ViewController.m in Sources */,
 				127D10E5195300F900DEDB39 /* AppDelegate.m in Sources */,
 				127D10E1195300F900DEDB39 /* main.m in Sources */,
+				12B44AAD1953D3590038F40F /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +494,7 @@
 				127D1105195300F900DEDB39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		127D1106195300F900DEDB39 /* Build configuration list for PBXNativeTarget "HiraganaTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +503,7 @@
 				127D1108195300F900DEDB39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

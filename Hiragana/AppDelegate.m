@@ -13,6 +13,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    self.standardHiriganaOption = (bool*)true;
+    self.intermediateHiriganaOption = (bool*)false;
+    self.advancedHiriganaOption = (bool*)false;
+    
     return YES;
 }
 							

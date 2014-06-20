@@ -12,4 +12,10 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic) BOOL *standardHiriganaOption;
+
+@property (nonatomic) BOOL *intermediateHiriganaOption;
+
+@property (nonatomic) BOOL *advancedHiriganaOption;
+
 @end
