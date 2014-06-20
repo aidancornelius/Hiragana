@@ -10,13 +10,25 @@
 
 @implementation AppDelegate
 
+#define is4inRetina  ([[UIScreen mainScreen] bounds].size.height == 568)?TRUE:FALSE
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     
-    self.standardHiriganaOption = (bool*)true;
-    self.intermediateHiriganaOption = (bool*)false;
-    self.advancedHiriganaOption = (bool*)false;
+    self.standardHiriganaOption = (BOOL*)true;
+    self.intermediateHiriganaOption = (BOOL*)false;
+    self.advancedHiriganaOption = (BOOL*)false;
+    
+    if (is4inRetina)
+    {
+        NSLog(@"[App Delegate Started] 4\" Retina Display Detected.");
+    }
+    else
+    {
+        NSLog(@"[App Delegate Started] 3.5\" Retina Display Detected.");
+        self.hideHintButtons = (BOOL*)true;
+    }
     
     return YES;
 }

@@ -18,4 +18,6 @@
 
 @property (nonatomic) BOOL *advancedHiriganaOption;
 
+@property (nonatomic) BOOL *hideHintButtons;
+
 @end

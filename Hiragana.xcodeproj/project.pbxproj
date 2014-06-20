@@ -127,15 +127,11 @@
 		127D10DA195300F900DEDB39 /* Hiragana */ = {
 			isa = PBXGroup;
 			children = (
-				127D10E3195300F900DEDB39 /* AppDelegate.h */,
-				127D10E4195300F900DEDB39 /* AppDelegate.m */,
+				12B44AB01953E2C00038F40F /* App Delegate */,
 				127D10E6195300F900DEDB39 /* Main.storyboard */,
-				127D10E9195300F900DEDB39 /* ViewController.h */,
-				127D10EA195300F900DEDB39 /* ViewController.m */,
+				12B44AAF1953E2B30038F40F /* ViewControllers */,
 				127D111D19530BE400DEDB39 /* Media */,
 				127D10DB195300F900DEDB39 /* Supporting Files */,
-				12B44AAB1953D3590038F40F /* SettingsViewController.h */,
-				12B44AAC1953D3590038F40F /* SettingsViewController.m */,
 			);
 			path = Hiragana;
 			sourceTree = "<group>";
@@ -181,6 +177,26 @@
 				127D111B19530BE000DEDB39 /* colors-band.png */,
 			);
 			name = Media;
+			sourceTree = "<group>";
+		};
+		12B44AAF1953E2B30038F40F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				127D10E9195300F900DEDB39 /* ViewController.h */,
+				127D10EA195300F900DEDB39 /* ViewController.m */,
+				12B44AAB1953D3590038F40F /* SettingsViewController.h */,
+				12B44AAC1953D3590038F40F /* SettingsViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		12B44AB01953E2C00038F40F /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				127D10E3195300F900DEDB39 /* AppDelegate.h */,
+				127D10E4195300F900DEDB39 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +246,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Aidan Cornelius-Bell";
 				TargetAttributes = {
+					127D10D0195300F900DEDB39 = {
+						DevelopmentTeam = HK6R36PLNR;
+					};
 					127D10F1195300F900DEDB39 = {
 						TestTargetID = 127D10D0195300F900DEDB39;
 					};
@@ -414,10 +433,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hiragana/Hiragana-Prefix.pch";
 				INFOPLIST_FILE = "Hiragana/Hiragana-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -427,10 +449,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hiragana/Hiragana-Prefix.pch";
 				INFOPLIST_FILE = "Hiragana/Hiragana-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

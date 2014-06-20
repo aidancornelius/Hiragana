@@ -16,7 +16,7 @@
 
 @implementation ViewController
 
-@synthesize translit, hirigana, nextButton;
+@synthesize translit, hirigana, nextButton, hintButton, skipButton;
 
 -(void)showKeyboard {
     [translit becomeFirstResponder];
@@ -27,6 +27,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self performSelector:@selector(showKeyboard) withObject:nil afterDelay:0.2];
+    
+    if (AppDelegate.hideHintButtons) {
+        hintButton.hidden = true;
+        skipButton.hidden = true;
+    }
 }
 
 -(void)viewDidAppear:(BOOL)animated
@@ -38,7 +43,7 @@
     [self performSelector:@selector(showKeyboard) withObject:nil afterDelay:0.2];
 }
 
-NSString* returnAHirigana(bool *shouldUseSTN, bool *shouldUseHMYRW, bool *shouldUseGZDBP) {
+NSString* returnAHirigana(BOOL *shouldUseSTN, BOOL *shouldUseHMYRW, BOOL *shouldUseGZDBP) {
     NSArray *basicHirigana;
     
     basicHirigana = [NSArray arrayWithObjects:@"あ", @"い", @"う", @"え", @"お", nil];
@@ -57,17 +62,17 @@ NSString* returnAHirigana(bool *shouldUseSTN, bool *shouldUseHMYRW, bool *should
     
     NSArray *arrayForReturn;
     
-    if (shouldUseSTN == (bool*)1) {
+    if (shouldUseSTN == (BOOL*)1) {
         NSLog(@"[Enabling use of standard Hirigana] KSTNH");
         arrayForReturn = standardHirigana;
     } else {
         arrayForReturn = basicHirigana;
     }
-    if (shouldUseHMYRW == (bool*)1) {
+    if (shouldUseHMYRW == (BOOL*)1) {
         NSLog(@"[Enabling use of Intermediate Hirigana] HMYRW");
         arrayForReturn = intermediateHirigana;
     }
-    if (shouldUseGZDBP == (bool*)1) {
+    if (shouldUseGZDBP == (BOOL*)1) {
         NSLog(@"[Enabling use of Advanced Hirigana] GZDBP");
         arrayForReturn = advancedHirigana;
     }
@@ -115,8 +120,10 @@ NSString* findTranslitForHirigana(NSString *theHirigana) {
         returnString = @"se";
     } else if ([theHirigana isEqualToString:@"そ"]) {
         returnString = @"so";
-    } else if ([theHirigana isEqualToString:@"な"]) {
+    } else if ([theHirigana isEqualToString:@"た"]) {
         returnString = @"ta";
+    } else if ([theHirigana isEqualToString:@"な"]) {
+       returnString = @"na";
     } else if ([theHirigana isEqualToString:@"ち"]) {
         returnString = @"chi";
     } else if ([theHirigana isEqualToString:@"つ"]) {

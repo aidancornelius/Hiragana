@@ -25,19 +25,19 @@
     
     // Check and set the settings as they were...
     
-    if (AppDelegate.standardHiriganaOption == (bool*)true) {
+    if (AppDelegate.standardHiriganaOption == (BOOL*)true) {
         standardHiriganaSwitch.on = true;
-    } else if (AppDelegate.standardHiriganaOption == (bool*)false) {
+    } else if (AppDelegate.standardHiriganaOption == (BOOL*)false) {
         standardHiriganaSwitch.on = false;
     }
-    if (AppDelegate.intermediateHiriganaOption == (bool*)true) {
+    if (AppDelegate.intermediateHiriganaOption == (BOOL*)true) {
         intermediateHiriganaSwitch.on = true;
-    } else if (AppDelegate.intermediateHiriganaOption == (bool*)false) {
+    } else if (AppDelegate.intermediateHiriganaOption == (BOOL*)false) {
         intermediateHiriganaSwitch.on = false;
     }
-    if (AppDelegate.advancedHiriganaOption == (bool*)true) {
+    if (AppDelegate.advancedHiriganaOption == (BOOL*)true) {
         advancedHiriganaSwitch.on = true;
-    } else if (AppDelegate.advancedHiriganaOption == (bool*)false) {
+    } else if (AppDelegate.advancedHiriganaOption == (BOOL*)false) {
         advancedHiriganaSwitch.on = false;
     }
     
@@ -68,17 +68,17 @@
         intermediateHiriganaSwitch.on = false;
         advancedHiriganaSwitch.on = false;
         NSLog(@"[Settings Change] Standard Hirigana Enabled");
-        AppDelegate.standardHiriganaOption = (bool *)true;
-        AppDelegate.intermediateHiriganaOption = (bool *)false;
-        AppDelegate.advancedHiriganaOption = (bool *)false;
+        AppDelegate.standardHiriganaOption = (BOOL *)true;
+        AppDelegate.intermediateHiriganaOption = (BOOL *)false;
+        AppDelegate.advancedHiriganaOption = (BOOL *)false;
     } else {
         standardHiriganaSwitch.on = false;
         intermediateHiriganaSwitch.on = false;
         advancedHiriganaSwitch.on = false;
         NSLog(@"[Settings Change] Standard Hirigana Disabled");
-        AppDelegate.standardHiriganaOption = (bool *)false;
-        AppDelegate.intermediateHiriganaOption = (bool *)false;
-        AppDelegate.advancedHiriganaOption = (bool *)false;
+        AppDelegate.standardHiriganaOption = (BOOL *)false;
+        AppDelegate.intermediateHiriganaOption = (BOOL *)false;
+        AppDelegate.advancedHiriganaOption = (BOOL *)false;
     }
 }
 
@@ -87,16 +87,16 @@
         standardHiriganaSwitch.on = true;
         intermediateHiriganaSwitch.on = true;
         NSLog(@"[Settings Change] Intermediate Hirigana Enabled");
-        AppDelegate.standardHiriganaOption = (bool *)true;
-        AppDelegate.intermediateHiriganaOption = (bool *)true;
-        AppDelegate.advancedHiriganaOption = (bool *)false;
+        AppDelegate.standardHiriganaOption = (BOOL *)true;
+        AppDelegate.intermediateHiriganaOption = (BOOL *)true;
+        AppDelegate.advancedHiriganaOption = (BOOL *)false;
     } else {
         intermediateHiriganaSwitch.on = false;
         advancedHiriganaSwitch.on = false;
         NSLog(@"[Settings Change] Intermediate Hirigana Disabled");
-        AppDelegate.standardHiriganaOption = (bool *)true;
-        AppDelegate.intermediateHiriganaOption = (bool *)false;
-        AppDelegate.advancedHiriganaOption = (bool *)false;
+        AppDelegate.standardHiriganaOption = (BOOL *)true;
+        AppDelegate.intermediateHiriganaOption = (BOOL *)false;
+        AppDelegate.advancedHiriganaOption = (BOOL *)false;
     }
 }
 
@@ -106,15 +106,15 @@
         intermediateHiriganaSwitch.on = true;
         advancedHiriganaSwitch.on = true;
         NSLog(@"[Settings Change] Advanced Hirigana Enabled");
-        AppDelegate.standardHiriganaOption = (bool *)true;
-        AppDelegate.intermediateHiriganaOption = (bool *)true;
-        AppDelegate.advancedHiriganaOption = (bool *)true;
+        AppDelegate.standardHiriganaOption = (BOOL *)true;
+        AppDelegate.intermediateHiriganaOption = (BOOL *)true;
+        AppDelegate.advancedHiriganaOption = (BOOL *)true;
     } else {
         intermediateHiriganaSwitch.on = true;
         NSLog(@"[Settings Change] Advanced Hirigana Disabled");
-        AppDelegate.standardHiriganaOption = (bool *)true;
-        AppDelegate.intermediateHiriganaOption = (bool *)true;
-        AppDelegate.intermediateHiriganaOption = (bool *)false;
+        AppDelegate.standardHiriganaOption = (BOOL *)true;
+        AppDelegate.intermediateHiriganaOption = (BOOL *)true;
+        AppDelegate.intermediateHiriganaOption = (BOOL *)false;
     }
 }
 @end

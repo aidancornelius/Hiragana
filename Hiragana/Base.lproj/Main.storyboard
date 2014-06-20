@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lcq-Ia-ZJ1">
+                            <navigationBar contentMode="scaleToFill" verticalHuggingPriority="252" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lcq-Ia-ZJ1">
                                 <rect key="frame" x="0.0" y="21" width="320" height="44"/>
                                 <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <items>
@@ -37,35 +37,31 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.png" translatesAutoresizingMaskIntoConstraints="NO" id="FtE-oN-1jx">
-                                <rect key="frame" x="47" y="74" width="226" height="171"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" fixedFrame="YES" image="square.png" translatesAutoresizingMaskIntoConstraints="NO" id="FtE-oN-1jx">
+                                <rect key="frame" x="47" y="74" width="226" height="145"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Translit" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="guI-vh-uOv">
-                                <rect key="frame" x="47" y="248" width="226" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Translit" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="guI-vh-uOv">
+                                <rect key="frame" x="47" y="227" width="226" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="namePhonePad" keyboardAppearance="alert" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
                                 <connections>
                                     <action selector="EditingDidEnd:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="izb-pV-rne"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="あ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbF-rT-cIp">
-                                <rect key="frame" x="47" y="80" width="226" height="160"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="あ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbF-rT-cIp">
+                                <rect key="frame" x="47" y="67" width="226" height="160"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="105"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4wI-6J-MTH">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4wI-6J-MTH">
                                 <rect key="frame" x="0.0" y="313" width="155" height="37"/>
                                 <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="37" id="L5K-AZ-VTq"/>
-                                    <constraint firstAttribute="width" constant="155" id="y2c-2n-w1L"/>
-                                </constraints>
                                 <state key="normal" title="Skip >"/>
                                 <connections>
                                     <action selector="skipButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iLP-kl-AVo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvd-rV-Buu">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvd-rV-Buu">
                                 <rect key="frame" x="155" y="313" width="165" height="37"/>
                                 <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Hint?"/>
@@ -73,43 +69,17 @@
                                     <action selector="hintButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="luP-vv-oet"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="colors-band.png" translatesAutoresizingMaskIntoConstraints="NO" id="IyY-lD-JTj">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="colors-band.png" translatesAutoresizingMaskIntoConstraints="NO" id="IyY-lD-JTj">
                                 <rect key="frame" x="0.0" y="350" width="320" height="218"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="A0K-y9-8hY"/>
-                                    <constraint firstAttribute="width" secondItem="IyY-lD-JTj" secondAttribute="height" multiplier="160:109" id="fWs-88-r4g"/>
-                                    <constraint firstAttribute="height" constant="218" id="mCN-OL-9GI"/>
-                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="4wI-6J-MTH" firstAttribute="top" secondItem="uvd-rV-Buu" secondAttribute="top" id="41Z-1t-ypd"/>
-                            <constraint firstItem="nbF-rT-cIp" firstAttribute="trailing" secondItem="FtE-oN-1jx" secondAttribute="trailing" id="57d-uu-DgZ"/>
-                            <constraint firstItem="IyY-lD-JTj" firstAttribute="trailing" secondItem="uvd-rV-Buu" secondAttribute="trailing" id="75g-Lz-8EZ"/>
-                            <constraint firstItem="Lcq-Ia-ZJ1" firstAttribute="centerX" secondItem="nbF-rT-cIp" secondAttribute="centerX" id="9Qs-2h-eNP"/>
-                            <constraint firstItem="Lcq-Ia-ZJ1" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="1" id="DmX-E8-cRT"/>
-                            <constraint firstItem="nbF-rT-cIp" firstAttribute="centerX" secondItem="FtE-oN-1jx" secondAttribute="centerX" id="Dri-hx-Z8k"/>
-                            <constraint firstItem="guI-vh-uOv" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="IPN-at-0AG"/>
-                            <constraint firstAttribute="bottom" secondItem="IyY-lD-JTj" secondAttribute="bottom" id="IV7-FA-6Uw"/>
-                            <constraint firstItem="guI-vh-uOv" firstAttribute="leading" secondItem="nbF-rT-cIp" secondAttribute="leading" id="KEz-vM-vVo"/>
-                            <constraint firstItem="IyY-lD-JTj" firstAttribute="width" secondItem="IyY-lD-JTj" secondAttribute="height" multiplier="160:109" id="Pkt-D1-mpg"/>
-                            <constraint firstItem="guI-vh-uOv" firstAttribute="trailing" secondItem="nbF-rT-cIp" secondAttribute="trailing" id="XF9-19-CUi"/>
-                            <constraint firstItem="IyY-lD-JTj" firstAttribute="leading" secondItem="Lcq-Ia-ZJ1" secondAttribute="leading" id="Xnz-1t-e77"/>
-                            <constraint firstItem="FtE-oN-1jx" firstAttribute="top" secondItem="Lcq-Ia-ZJ1" secondAttribute="bottom" constant="9" id="aFR-Yn-hG2"/>
-                            <constraint firstItem="IyY-lD-JTj" firstAttribute="top" secondItem="uvd-rV-Buu" secondAttribute="bottom" id="bas-7I-XiY"/>
-                            <constraint firstItem="4wI-6J-MTH" firstAttribute="bottom" secondItem="uvd-rV-Buu" secondAttribute="bottom" id="eo9-ks-Cll"/>
-                            <constraint firstItem="IyY-lD-JTj" firstAttribute="leading" secondItem="4wI-6J-MTH" secondAttribute="leading" id="f0e-a3-36K"/>
-                            <constraint firstItem="Lcq-Ia-ZJ1" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="jz0-i7-rLF"/>
-                            <constraint firstItem="guI-vh-uOv" firstAttribute="top" secondItem="FtE-oN-1jx" secondAttribute="bottom" constant="3" id="q0Y-Fp-Wmj"/>
-                            <constraint firstItem="nbF-rT-cIp" firstAttribute="top" secondItem="Lcq-Ia-ZJ1" secondAttribute="bottom" constant="15" id="sa1-kl-7Wy"/>
-                            <constraint firstItem="guI-vh-uOv" firstAttribute="top" secondItem="nbF-rT-cIp" secondAttribute="bottom" constant="8" symbolic="YES" id="zGD-Uk-SL3"/>
-                            <constraint firstItem="uvd-rV-Buu" firstAttribute="leading" secondItem="4wI-6J-MTH" secondAttribute="trailing" id="zM1-86-kuX"/>
-                        </constraints>
                     </view>
                     <connections>
+                        <outlet property="hintButton" destination="uvd-rV-Buu" id="YQV-de-dDB"/>
                         <outlet property="hirigana" destination="nbF-rT-cIp" id="nyO-BO-1eT"/>
                         <outlet property="nextButton" destination="L74-HC-fmg" id="J02-e2-9Zk"/>
+                        <outlet property="skipButton" destination="4wI-6J-MTH" id="gig-8F-95B"/>
                         <outlet property="translit" destination="guI-vh-uOv" id="6e9-nJ-iU6"/>
                     </connections>
                 </viewController>
