@@ -69,7 +69,7 @@
                                     <action selector="hintButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="luP-vv-oet"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="colors-band.png" translatesAutoresizingMaskIntoConstraints="NO" id="IyY-lD-JTj">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="IyY-lD-JTj">
                                 <rect key="frame" x="0.0" y="350" width="320" height="218"/>
                             </imageView>
                         </subviews>
@@ -143,8 +143,30 @@
                                 <rect key="frame" x="6" y="306" width="308" height="251"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <attributedString key="attributedText">
+                                    <fragment content="Hiragana Transliteration Flashcards">
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
                                     <fragment>
-                                        <string key="content">Hirigana Transliteration Flashcards
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="V 1.2 - App Store">
+                                        <attributes>
+                                            <font key="NSFont" size="10" name="Helvetica-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
 </string>
                                         <attributes>
                                             <font key="NSFont" size="17" name="Helvetica-Bold"/>
@@ -156,16 +178,16 @@
 Cg
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="17" name="Helvetica-Bold"/>
+                                            <font key="NSFont" size="8" name="Helvetica-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Take half an hour each day to transliterate Hirigana, and in no time you'll be remembering them like a pro!
+                                        <string key="content">Take half an hour each day to transliterate Hiragana, and in no time you'll be remembering them like a pro!
 
-This app is by no means perfect, in fact, I made it while learning Japanese myself because I couldn't find any apps that did exactly what I wanted.
+Thanks for taking the time to download the app, I hope it helps your learning. Good luck!
 
-If you find any mistakes. would like to make any suggestions, or test out your Japanese skills please email me at...
+This app tries really hard to be perfect, but, if for any reason it doesn't work the way you expect, or you find any mistakes, would like to make any suggestions, or test out your Japanese skills please email me at...
 
 </string>
                                         <attributes>
@@ -173,8 +195,16 @@ If you find any mistakes. would like to make any suggestions, or test out your J
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
+                                    <fragment content="aidancornelius@research.tfel.edu.au">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <url key="NSLink" string="mailto:aidancornelius@research.tfel.edu.au"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
                                     <fragment>
-                                        <string key="content">aidancornelius@research.tfel.edu.au
+                                        <string key="content" base64-UTF8="YES">
+Cg
 </string>
                                         <attributes>
                                             <font key="NSFont" size="12" name="Helvetica"/>
@@ -190,7 +220,7 @@ Cg
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="Icons are Glyphicons!">
+                                    <fragment content="Icons are Glyphicons. Made with love in Adelaide.">
                                         <attributes>
                                             <font key="NSFont" size="12" name="Helvetica"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
@@ -198,9 +228,9 @@ Cg
                                     </fragment>
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" address="YES"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="colors-band.png" translatesAutoresizingMaskIntoConstraints="NO" id="0wy-fS-y3M">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="0wy-fS-y3M">
                                 <rect key="frame" x="0.0" y="-44" width="320" height="218"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="0wy-fS-y3M" secondAttribute="height" multiplier="160:109" id="8LW-CA-u9c"/>
@@ -272,7 +302,7 @@ Cg
         </scene>
     </scenes>
     <resources>
-        <image name="colors-band.png" width="980" height="8"/>
+        <image name="app-background.png" width="400" height="400"/>
         <image name="glyphicons_193_circle_ok.png" width="26" height="26"/>
         <image name="glyphicons_195_circle_info.png" width="26" height="26"/>
         <image name="square.png" width="226" height="171"/>

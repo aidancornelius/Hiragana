@@ -77,7 +77,7 @@ NSString* returnAHirigana(BOOL *shouldUseSTN, BOOL *shouldUseHMYRW, BOOL *should
         arrayForReturn = advancedHirigana;
     }
     
-    uint32_t rnd = arc4random_uniform([arrayForReturn count]);
+    NSUInteger rnd = arc4random_uniform((uint32_t) arrayForReturn.count);
     
     NSString *nextHirigana = [arrayForReturn objectAtIndex:rnd];
     

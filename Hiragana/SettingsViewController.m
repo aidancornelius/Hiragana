@@ -41,8 +41,6 @@
         advancedHiriganaSwitch.on = false;
     }
     
-    
-    
 }
 
 - (void)didReceiveMemoryWarning

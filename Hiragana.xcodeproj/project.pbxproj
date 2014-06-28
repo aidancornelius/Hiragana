@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12208E17195EF2FB00707A04 /* app-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12208E16195EF2FB00707A04 /* app-background@2x.png */; };
 		127D10D5195300F900DEDB39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D10D4195300F900DEDB39 /* Foundation.framework */; };
 		127D10D7195300F900DEDB39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D10D6195300F900DEDB39 /* CoreGraphics.framework */; };
 		127D10D9195300F900DEDB39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D10D8195300F900DEDB39 /* UIKit.framework */; };
@@ -25,7 +26,6 @@
 		127D11161953066400DEDB39 /* glyphicons_193_circle_ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D11141953066400DEDB39 /* glyphicons_193_circle_ok@2x.png */; };
 		127D11191953067100DEDB39 /* glyphicons_195_circle_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D11171953067100DEDB39 /* glyphicons_195_circle_info.png */; };
 		127D111A1953067100DEDB39 /* glyphicons_195_circle_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D11181953067100DEDB39 /* glyphicons_195_circle_info@2x.png */; };
-		127D111C19530BE000DEDB39 /* colors-band.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D111B19530BE000DEDB39 /* colors-band.png */; };
 		127D111F195310BA00DEDB39 /* square@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D111E195310BA00DEDB39 /* square@2x.png */; };
 		12B44AAD1953D3590038F40F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B44AAC1953D3590038F40F /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12208E16195EF2FB00707A04 /* app-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-background@2x.png"; sourceTree = "<group>"; };
 		127D10D1195300F900DEDB39 /* Hiragana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiragana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		127D10D4195300F900DEDB39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		127D10D6195300F900DEDB39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +65,6 @@
 		127D11141953066400DEDB39 /* glyphicons_193_circle_ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_193_circle_ok@2x.png"; sourceTree = "<group>"; };
 		127D11171953067100DEDB39 /* glyphicons_195_circle_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_195_circle_info.png; sourceTree = "<group>"; };
 		127D11181953067100DEDB39 /* glyphicons_195_circle_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_195_circle_info@2x.png"; sourceTree = "<group>"; };
-		127D111B19530BE000DEDB39 /* colors-band.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colors-band.png"; sourceTree = "<group>"; };
 		127D111E195310BA00DEDB39 /* square@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square@2x.png"; sourceTree = "<group>"; };
 		12B44AAB1953D3590038F40F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		12B44AAC1953D3590038F40F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
@@ -174,7 +174,7 @@
 				127D11141953066400DEDB39 /* glyphicons_193_circle_ok@2x.png */,
 				127D11171953067100DEDB39 /* glyphicons_195_circle_info.png */,
 				127D11181953067100DEDB39 /* glyphicons_195_circle_info@2x.png */,
-				127D111B19530BE000DEDB39 /* colors-band.png */,
+				12208E16195EF2FB00707A04 /* app-background@2x.png */,
 			);
 			name = Media;
 			sourceTree = "<group>";
@@ -280,13 +280,13 @@
 			files = (
 				127D111A1953067100DEDB39 /* glyphicons_195_circle_info@2x.png in Resources */,
 				127D10ED195300F900DEDB39 /* Images.xcassets in Resources */,
+				12208E17195EF2FB00707A04 /* app-background@2x.png in Resources */,
 				127D11151953066400DEDB39 /* glyphicons_193_circle_ok.png in Resources */,
 				127D11191953067100DEDB39 /* glyphicons_195_circle_info.png in Resources */,
 				127D10DF195300F900DEDB39 /* InfoPlist.strings in Resources */,
 				127D10E8195300F900DEDB39 /* Main.storyboard in Resources */,
 				127D11161953066400DEDB39 /* glyphicons_193_circle_ok@2x.png in Resources */,
 				127D111F195310BA00DEDB39 /* square@2x.png in Resources */,
-				127D111C19530BE000DEDB39 /* colors-band.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
