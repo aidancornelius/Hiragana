@@ -1,26 +1,14 @@
 {
   "images" : [
     {
-      "size" : "29x29",
-      "idiom" : "iphone",
-      "filename" : "iPhone29pt@2x.png",
-      "scale" : "2x"
-    },
-    {
-      "size" : "40x40",
-      "idiom" : "iphone",
-      "filename" : "iPhone40pt@2x.png",
-      "scale" : "2x"
-    },
-    {
-      "size" : "60x60",
-      "idiom" : "iphone",
-      "filename" : "iPhone60pt@2x.png",
-      "scale" : "2x"
+      "filename" : "hira-trans.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }

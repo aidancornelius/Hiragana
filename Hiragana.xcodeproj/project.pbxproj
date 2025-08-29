@@ -3,534 +3,561 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		12208E17195EF2FB00707A04 /* app-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12208E16195EF2FB00707A04 /* app-background@2x.png */; };
-		127D10D5195300F900DEDB39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D10D4195300F900DEDB39 /* Foundation.framework */; };
-		127D10D7195300F900DEDB39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D10D6195300F900DEDB39 /* CoreGraphics.framework */; };
-		127D10D9195300F900DEDB39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D10D8195300F900DEDB39 /* UIKit.framework */; };
-		127D10DF195300F900DEDB39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 127D10DD195300F900DEDB39 /* InfoPlist.strings */; };
-		127D10E1195300F900DEDB39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D10E0195300F900DEDB39 /* main.m */; };
-		127D10E5195300F900DEDB39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D10E4195300F900DEDB39 /* AppDelegate.m */; };
-		127D10E8195300F900DEDB39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127D10E6195300F900DEDB39 /* Main.storyboard */; };
-		127D10EB195300F900DEDB39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D10EA195300F900DEDB39 /* ViewController.m */; };
-		127D10ED195300F900DEDB39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127D10EC195300F900DEDB39 /* Images.xcassets */; };
-		127D10F4195300F900DEDB39 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D10F3195300F900DEDB39 /* XCTest.framework */; };
-		127D10F5195300F900DEDB39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D10D4195300F900DEDB39 /* Foundation.framework */; };
-		127D10F6195300F900DEDB39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127D10D8195300F900DEDB39 /* UIKit.framework */; };
-		127D10FE195300F900DEDB39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 127D10FC195300F900DEDB39 /* InfoPlist.strings */; };
-		127D1100195300F900DEDB39 /* HiraganaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D10FF195300F900DEDB39 /* HiraganaTests.m */; };
-		127D11151953066400DEDB39 /* glyphicons_193_circle_ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D11131953066400DEDB39 /* glyphicons_193_circle_ok.png */; };
-		127D11161953066400DEDB39 /* glyphicons_193_circle_ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D11141953066400DEDB39 /* glyphicons_193_circle_ok@2x.png */; };
-		127D11191953067100DEDB39 /* glyphicons_195_circle_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D11171953067100DEDB39 /* glyphicons_195_circle_info.png */; };
-		127D111A1953067100DEDB39 /* glyphicons_195_circle_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D11181953067100DEDB39 /* glyphicons_195_circle_info@2x.png */; };
-		127D111F195310BA00DEDB39 /* square@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D111E195310BA00DEDB39 /* square@2x.png */; };
-		12B44AAD1953D3590038F40F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B44AAC1953D3590038F40F /* SettingsViewController.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
-		127D10F7195300F900DEDB39 /* PBXContainerItemProxy */ = {
+		443FABC72E61314100C49988 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 127D10C9195300F900DEDB39 /* Project object */;
+			containerPortal = 443FABB12E61314000C49988 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 127D10D0195300F900DEDB39;
+			remoteGlobalIDString = 443FABB82E61314000C49988;
+			remoteInfo = Hiragana;
+		};
+		443FABD12E61314100C49988 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 443FABB12E61314000C49988 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 443FABB82E61314000C49988;
 			remoteInfo = Hiragana;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12208E16195EF2FB00707A04 /* app-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-background@2x.png"; sourceTree = "<group>"; };
-		127D10D1195300F900DEDB39 /* Hiragana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiragana.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		127D10D4195300F900DEDB39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		127D10D6195300F900DEDB39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		127D10D8195300F900DEDB39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		127D10DC195300F900DEDB39 /* Hiragana-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hiragana-Info.plist"; sourceTree = "<group>"; };
-		127D10DE195300F900DEDB39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		127D10E0195300F900DEDB39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		127D10E2195300F900DEDB39 /* Hiragana-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hiragana-Prefix.pch"; sourceTree = "<group>"; };
-		127D10E3195300F900DEDB39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		127D10E4195300F900DEDB39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		127D10E7195300F900DEDB39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		127D10E9195300F900DEDB39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		127D10EA195300F900DEDB39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		127D10EC195300F900DEDB39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		127D10F2195300F900DEDB39 /* HiraganaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiraganaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		127D10F3195300F900DEDB39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		127D10FB195300F900DEDB39 /* HiraganaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiraganaTests-Info.plist"; sourceTree = "<group>"; };
-		127D10FD195300F900DEDB39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		127D10FF195300F900DEDB39 /* HiraganaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiraganaTests.m; sourceTree = "<group>"; };
-		127D11131953066400DEDB39 /* glyphicons_193_circle_ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_193_circle_ok.png; sourceTree = "<group>"; };
-		127D11141953066400DEDB39 /* glyphicons_193_circle_ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_193_circle_ok@2x.png"; sourceTree = "<group>"; };
-		127D11171953067100DEDB39 /* glyphicons_195_circle_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_195_circle_info.png; sourceTree = "<group>"; };
-		127D11181953067100DEDB39 /* glyphicons_195_circle_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_195_circle_info@2x.png"; sourceTree = "<group>"; };
-		127D111E195310BA00DEDB39 /* square@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square@2x.png"; sourceTree = "<group>"; };
-		12B44AAB1953D3590038F40F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
-		12B44AAC1953D3590038F40F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		443FABB92E61314000C49988 /* Hiragana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiragana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		443FABC62E61314100C49988 /* HiraganaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiraganaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		443FABD02E61314100C49988 /* HiraganaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiraganaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		443FABBB2E61314000C49988 /* Hiragana */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Hiragana;
+			sourceTree = "<group>";
+		};
+		443FABC92E61314100C49988 /* HiraganaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HiraganaTests;
+			sourceTree = "<group>";
+		};
+		443FABD32E61314100C49988 /* HiraganaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HiraganaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		127D10CE195300F900DEDB39 /* Frameworks */ = {
+		443FABB62E61314000C49988 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127D10D7195300F900DEDB39 /* CoreGraphics.framework in Frameworks */,
-				127D10D9195300F900DEDB39 /* UIKit.framework in Frameworks */,
-				127D10D5195300F900DEDB39 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		127D10EF195300F900DEDB39 /* Frameworks */ = {
+		443FABC32E61314100C49988 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127D10F4195300F900DEDB39 /* XCTest.framework in Frameworks */,
-				127D10F6195300F900DEDB39 /* UIKit.framework in Frameworks */,
-				127D10F5195300F900DEDB39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443FABCD2E61314100C49988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		127D10C8195300F900DEDB39 = {
+		443FABB02E61314000C49988 = {
 			isa = PBXGroup;
 			children = (
-				127D10DA195300F900DEDB39 /* Hiragana */,
-				127D10F9195300F900DEDB39 /* HiraganaTests */,
-				127D10D3195300F900DEDB39 /* Frameworks */,
-				127D10D2195300F900DEDB39 /* Products */,
+				443FABBB2E61314000C49988 /* Hiragana */,
+				443FABC92E61314100C49988 /* HiraganaTests */,
+				443FABD32E61314100C49988 /* HiraganaUITests */,
+				443FABBA2E61314000C49988 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		127D10D2195300F900DEDB39 /* Products */ = {
+		443FABBA2E61314000C49988 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				127D10D1195300F900DEDB39 /* Hiragana.app */,
-				127D10F2195300F900DEDB39 /* HiraganaTests.xctest */,
+				443FABB92E61314000C49988 /* Hiragana.app */,
+				443FABC62E61314100C49988 /* HiraganaTests.xctest */,
+				443FABD02E61314100C49988 /* HiraganaUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		127D10D3195300F900DEDB39 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				127D10D4195300F900DEDB39 /* Foundation.framework */,
-				127D10D6195300F900DEDB39 /* CoreGraphics.framework */,
-				127D10D8195300F900DEDB39 /* UIKit.framework */,
-				127D10F3195300F900DEDB39 /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		127D10DA195300F900DEDB39 /* Hiragana */ = {
-			isa = PBXGroup;
-			children = (
-				12B44AB01953E2C00038F40F /* App Delegate */,
-				127D10E6195300F900DEDB39 /* Main.storyboard */,
-				12B44AAF1953E2B30038F40F /* ViewControllers */,
-				127D111D19530BE400DEDB39 /* Media */,
-				127D10DB195300F900DEDB39 /* Supporting Files */,
-			);
-			path = Hiragana;
-			sourceTree = "<group>";
-		};
-		127D10DB195300F900DEDB39 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				127D10DC195300F900DEDB39 /* Hiragana-Info.plist */,
-				127D10DD195300F900DEDB39 /* InfoPlist.strings */,
-				127D10E0195300F900DEDB39 /* main.m */,
-				127D10E2195300F900DEDB39 /* Hiragana-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		127D10F9195300F900DEDB39 /* HiraganaTests */ = {
-			isa = PBXGroup;
-			children = (
-				127D10FF195300F900DEDB39 /* HiraganaTests.m */,
-				127D10FA195300F900DEDB39 /* Supporting Files */,
-			);
-			path = HiraganaTests;
-			sourceTree = "<group>";
-		};
-		127D10FA195300F900DEDB39 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				127D10FB195300F900DEDB39 /* HiraganaTests-Info.plist */,
-				127D10FC195300F900DEDB39 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		127D111D19530BE400DEDB39 /* Media */ = {
-			isa = PBXGroup;
-			children = (
-				127D10EC195300F900DEDB39 /* Images.xcassets */,
-				127D111E195310BA00DEDB39 /* square@2x.png */,
-				127D11131953066400DEDB39 /* glyphicons_193_circle_ok.png */,
-				127D11141953066400DEDB39 /* glyphicons_193_circle_ok@2x.png */,
-				127D11171953067100DEDB39 /* glyphicons_195_circle_info.png */,
-				127D11181953067100DEDB39 /* glyphicons_195_circle_info@2x.png */,
-				12208E16195EF2FB00707A04 /* app-background@2x.png */,
-			);
-			name = Media;
-			sourceTree = "<group>";
-		};
-		12B44AAF1953E2B30038F40F /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				127D10E9195300F900DEDB39 /* ViewController.h */,
-				127D10EA195300F900DEDB39 /* ViewController.m */,
-				12B44AAB1953D3590038F40F /* SettingsViewController.h */,
-				12B44AAC1953D3590038F40F /* SettingsViewController.m */,
-			);
-			name = ViewControllers;
-			sourceTree = "<group>";
-		};
-		12B44AB01953E2C00038F40F /* App Delegate */ = {
-			isa = PBXGroup;
-			children = (
-				127D10E3195300F900DEDB39 /* AppDelegate.h */,
-				127D10E4195300F900DEDB39 /* AppDelegate.m */,
-			);
-			name = "App Delegate";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		127D10D0195300F900DEDB39 /* Hiragana */ = {
+		443FABB82E61314000C49988 /* Hiragana */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 127D1103195300F900DEDB39 /* Build configuration list for PBXNativeTarget "Hiragana" */;
+			buildConfigurationList = 443FABDA2E61314100C49988 /* Build configuration list for PBXNativeTarget "Hiragana" */;
 			buildPhases = (
-				127D10CD195300F900DEDB39 /* Sources */,
-				127D10CE195300F900DEDB39 /* Frameworks */,
-				127D10CF195300F900DEDB39 /* Resources */,
+				443FABB52E61314000C49988 /* Sources */,
+				443FABB62E61314000C49988 /* Frameworks */,
+				443FABB72E61314000C49988 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				443FABBB2E61314000C49988 /* Hiragana */,
 			);
 			name = Hiragana;
+			packageProductDependencies = (
+			);
 			productName = Hiragana;
-			productReference = 127D10D1195300F900DEDB39 /* Hiragana.app */;
+			productReference = 443FABB92E61314000C49988 /* Hiragana.app */;
 			productType = "com.apple.product-type.application";
 		};
-		127D10F1195300F900DEDB39 /* HiraganaTests */ = {
+		443FABC52E61314100C49988 /* HiraganaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 127D1106195300F900DEDB39 /* Build configuration list for PBXNativeTarget "HiraganaTests" */;
+			buildConfigurationList = 443FABDD2E61314100C49988 /* Build configuration list for PBXNativeTarget "HiraganaTests" */;
 			buildPhases = (
-				127D10EE195300F900DEDB39 /* Sources */,
-				127D10EF195300F900DEDB39 /* Frameworks */,
-				127D10F0195300F900DEDB39 /* Resources */,
+				443FABC22E61314100C49988 /* Sources */,
+				443FABC32E61314100C49988 /* Frameworks */,
+				443FABC42E61314100C49988 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				127D10F8195300F900DEDB39 /* PBXTargetDependency */,
+				443FABC82E61314100C49988 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				443FABC92E61314100C49988 /* HiraganaTests */,
 			);
 			name = HiraganaTests;
+			packageProductDependencies = (
+			);
 			productName = HiraganaTests;
-			productReference = 127D10F2195300F900DEDB39 /* HiraganaTests.xctest */;
+			productReference = 443FABC62E61314100C49988 /* HiraganaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		443FABCF2E61314100C49988 /* HiraganaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443FABE02E61314100C49988 /* Build configuration list for PBXNativeTarget "HiraganaUITests" */;
+			buildPhases = (
+				443FABCC2E61314100C49988 /* Sources */,
+				443FABCD2E61314100C49988 /* Frameworks */,
+				443FABCE2E61314100C49988 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				443FABD22E61314100C49988 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				443FABD32E61314100C49988 /* HiraganaUITests */,
+			);
+			name = HiraganaUITests;
+			packageProductDependencies = (
+			);
+			productName = HiraganaUITests;
+			productReference = 443FABD02E61314100C49988 /* HiraganaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		127D10C9195300F900DEDB39 /* Project object */ = {
+		443FABB12E61314000C49988 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "Aidan Cornelius-Bell";
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					127D10D0195300F900DEDB39 = {
-						DevelopmentTeam = HK6R36PLNR;
+					443FABB82E61314000C49988 = {
+						CreatedOnToolsVersion = 16.4;
 					};
-					127D10F1195300F900DEDB39 = {
-						TestTargetID = 127D10D0195300F900DEDB39;
+					443FABC52E61314100C49988 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 443FABB82E61314000C49988;
+					};
+					443FABCF2E61314100C49988 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 443FABB82E61314000C49988;
 					};
 				};
 			};
-			buildConfigurationList = 127D10CC195300F900DEDB39 /* Build configuration list for PBXProject "Hiragana" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 443FABB42E61314000C49988 /* Build configuration list for PBXProject "Hiragana" */;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 127D10C8195300F900DEDB39;
-			productRefGroup = 127D10D2195300F900DEDB39 /* Products */;
+			mainGroup = 443FABB02E61314000C49988;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 443FABBA2E61314000C49988 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				127D10D0195300F900DEDB39 /* Hiragana */,
-				127D10F1195300F900DEDB39 /* HiraganaTests */,
+				443FABB82E61314000C49988 /* Hiragana */,
+				443FABC52E61314100C49988 /* HiraganaTests */,
+				443FABCF2E61314100C49988 /* HiraganaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		127D10CF195300F900DEDB39 /* Resources */ = {
+		443FABB72E61314000C49988 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127D111A1953067100DEDB39 /* glyphicons_195_circle_info@2x.png in Resources */,
-				127D10ED195300F900DEDB39 /* Images.xcassets in Resources */,
-				12208E17195EF2FB00707A04 /* app-background@2x.png in Resources */,
-				127D11151953066400DEDB39 /* glyphicons_193_circle_ok.png in Resources */,
-				127D11191953067100DEDB39 /* glyphicons_195_circle_info.png in Resources */,
-				127D10DF195300F900DEDB39 /* InfoPlist.strings in Resources */,
-				127D10E8195300F900DEDB39 /* Main.storyboard in Resources */,
-				127D11161953066400DEDB39 /* glyphicons_193_circle_ok@2x.png in Resources */,
-				127D111F195310BA00DEDB39 /* square@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		127D10F0195300F900DEDB39 /* Resources */ = {
+		443FABC42E61314100C49988 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127D10FE195300F900DEDB39 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443FABCE2E61314100C49988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		127D10CD195300F900DEDB39 /* Sources */ = {
+		443FABB52E61314000C49988 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127D10EB195300F900DEDB39 /* ViewController.m in Sources */,
-				127D10E5195300F900DEDB39 /* AppDelegate.m in Sources */,
-				127D10E1195300F900DEDB39 /* main.m in Sources */,
-				12B44AAD1953D3590038F40F /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		127D10EE195300F900DEDB39 /* Sources */ = {
+		443FABC22E61314100C49988 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127D1100195300F900DEDB39 /* HiraganaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443FABCC2E61314100C49988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		127D10F8195300F900DEDB39 /* PBXTargetDependency */ = {
+		443FABC82E61314100C49988 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 127D10D0195300F900DEDB39 /* Hiragana */;
-			targetProxy = 127D10F7195300F900DEDB39 /* PBXContainerItemProxy */;
+			target = 443FABB82E61314000C49988 /* Hiragana */;
+			targetProxy = 443FABC72E61314100C49988 /* PBXContainerItemProxy */;
+		};
+		443FABD22E61314100C49988 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 443FABB82E61314000C49988 /* Hiragana */;
+			targetProxy = 443FABD12E61314100C49988 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		127D10DD195300F900DEDB39 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				127D10DE195300F900DEDB39 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		127D10E6195300F900DEDB39 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				127D10E7195300F900DEDB39 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		127D10FC195300F900DEDB39 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				127D10FD195300F900DEDB39 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		127D1101195300F900DEDB39 /* Debug */ = {
+		443FABD82E61314100C49988 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HK6R36PLNR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		127D1102195300F900DEDB39 /* Release */ = {
+		443FABD92E61314100C49988 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HK6R36PLNR;
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		127D1104195300F900DEDB39 /* Debug */ = {
+		443FABDB2E61314100C49988 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Hiragana/Hiragana-Prefix.pch";
-				INFOPLIST_FILE = "Hiragana/Hiragana-Info.plist";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 250829;
+				DEVELOPMENT_TEAM = HK6R36PLNR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.id.aidancornelius.Hiragana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				WRAPPER_EXTENSION = app;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		127D1105195300F900DEDB39 /* Release */ = {
+		443FABDC2E61314100C49988 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Hiragana/Hiragana-Prefix.pch";
-				INFOPLIST_FILE = "Hiragana/Hiragana-Info.plist";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 250829;
+				DEVELOPMENT_TEAM = HK6R36PLNR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.id.aidancornelius.Hiragana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				WRAPPER_EXTENSION = app;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		127D1107195300F900DEDB39 /* Debug */ = {
+		443FABDE2E61314100C49988 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hiragana.app/Hiragana";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Hiragana/Hiragana-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "HiraganaTests/HiraganaTests-Info.plist";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HK6R36PLNR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.id.aidancornelius.HiraganaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiragana.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hiragana";
 			};
 			name = Debug;
 		};
-		127D1108195300F900DEDB39 /* Release */ = {
+		443FABDF2E61314100C49988 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hiragana.app/Hiragana";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Hiragana/Hiragana-Prefix.pch";
-				INFOPLIST_FILE = "HiraganaTests/HiraganaTests-Info.plist";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HK6R36PLNR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.id.aidancornelius.HiraganaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiragana.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hiragana";
+			};
+			name = Release;
+		};
+		443FABE12E61314100C49988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HK6R36PLNR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.id.aidancornelius.HiraganaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hiragana;
+			};
+			name = Debug;
+		};
+		443FABE22E61314100C49988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HK6R36PLNR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.id.aidancornelius.HiraganaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hiragana;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		127D10CC195300F900DEDB39 /* Build configuration list for PBXProject "Hiragana" */ = {
+		443FABB42E61314000C49988 /* Build configuration list for PBXProject "Hiragana" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				127D1101195300F900DEDB39 /* Debug */,
-				127D1102195300F900DEDB39 /* Release */,
+				443FABD82E61314100C49988 /* Debug */,
+				443FABD92E61314100C49988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		127D1103195300F900DEDB39 /* Build configuration list for PBXNativeTarget "Hiragana" */ = {
+		443FABDA2E61314100C49988 /* Build configuration list for PBXNativeTarget "Hiragana" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				127D1104195300F900DEDB39 /* Debug */,
-				127D1105195300F900DEDB39 /* Release */,
+				443FABDB2E61314100C49988 /* Debug */,
+				443FABDC2E61314100C49988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		127D1106195300F900DEDB39 /* Build configuration list for PBXNativeTarget "HiraganaTests" */ = {
+		443FABDD2E61314100C49988 /* Build configuration list for PBXNativeTarget "HiraganaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				127D1107195300F900DEDB39 /* Debug */,
-				127D1108195300F900DEDB39 /* Release */,
+				443FABDE2E61314100C49988 /* Debug */,
+				443FABDF2E61314100C49988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		443FABE02E61314100C49988 /* Build configuration list for PBXNativeTarget "HiraganaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443FABE12E61314100C49988 /* Debug */,
+				443FABE22E61314100C49988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 127D10C9195300F900DEDB39 /* Project object */;
+	rootObject = 443FABB12E61314000C49988 /* Project object */;
 }
